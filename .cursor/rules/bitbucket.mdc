@@ -1,0 +1,7 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+En Bitbucket utiliza siempre el workspace: WORKSPACE_BITBUCKET y el repositorio: NOMBRE_REPOSITORIO

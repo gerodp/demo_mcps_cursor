@@ -1,0 +1,11 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+El proyecto en que trabajo en Jira es: NOMBRE_PROYECTO_JIRA. Con código CODIGO_PROYECTO_JIRA, utilizalo siempre en las queries de jira.
+
+Cuando busques tickets incluye subtasks, subbugs, etc..
+
+Mi usuario de jira es: EMAIL_USUARIO_JIRA
+

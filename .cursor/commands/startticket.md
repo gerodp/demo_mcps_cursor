@@ -1,0 +1,1 @@
+El objetivo es empezar a trabajar en un ticket de jira

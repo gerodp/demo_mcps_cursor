@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novedades de Cursor y Modelos IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation dots -->
+    <nav class="nav-dots">
+        <div class="dot active" data-section="0"></div>
+        <div class="dot" data-section="1"></div>
+        <div class="dot" data-section="2"></div>
+        <div class="dot" data-section="3"></div>
+        <div class="dot" data-section="4"></div>
+        <div class="dot" data-section="5"></div>
+    </nav>
+
+    <!-- Section 1: Agenda -->
+    <section class="section active" id="section-0">
+        <div class="container">
+            <div class="content-wrapper fade-in">
+                <h1 class="main-title">Novedades de Cursor y Modelos IA</h1>
+                <div class="agenda-list">
+                    <div class="agenda-item" data-delay="0.2s">
+                        <div class="agenda-number">01</div>
+                        <div class="agenda-content">
+                            <h3>MCPs Jira y Bitbucket</h3>
+                            <p>Conecta tus herramientas de desarrollo</p>
+                        </div>
+                    </div>
+                    <div class="agenda-item" data-delay="0.4s">
+                        <div class="agenda-number">02</div>
+                        <div class="agenda-content">
+                            <h3>Cursor Rules</h3>
+                            <p>Define estándares de código personalizados</p>
+                        </div>
+                    </div>
+                    <div class="agenda-item" data-delay="0.6s">
+                        <div class="agenda-number">03</div>
+                        <div class="agenda-content">
+                            <h3>Generación de Comandos</h3>
+                            <p>Automatiza tareas complejas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Section 2: MCPs -->
+    <section class="section" id="section-1">
+        <div class="container">
+            <div class="content-wrapper">
+                <h1 class="section-title">MCPs</h1>
+                <div class="questions-container">
+                    
+                    <div class="question-block">
+                        <button class="question-header" data-target="mcp-definition">
+                            <span>¿Qué son los MCPs?</span>
+                            <div class="chevron"></div>
+                        </button>
+                        <div class="answer-content" id="mcp-definition">
+                            <p>Los <strong>Model Context Protocols (MCPs)</strong> son protocolos estándar que permiten a los modelos de IA acceder a datos y servicios externos de forma segura y estructurada.</p>
+                        </div>
+                    </div>
+
+                    <div class="question-block">
+                        <button class="question-header" data-target="mcp-installation">
+                            <span>Instalación de MCPs</span>
+                            <div class="chevron"></div>
+                        </button>
+                        <div class="answer-content" id="mcp-installation">
+                            <div class="installation-grid">
+                                <div class="installation-item">
+                                    <div class="installation-header">
+                                        <h4>🔧 MCP de Jira</h4>
+                                    </div>
+                                    <p>Integración oficial de Atlassian para conectar con Jira y Confluence</p>
+                                    <a href="https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/" target="_blank" class="installation-link">
+                                        Ver guía de instalación →
+                                    </a>
+                                </div>
+                                <p></p>
+                                <div class="installation-item">
+                                    <div class="installation-header">
+                                        <h4>⚡ MCP de Bitbucket</h4>
+                                    </div>
+                                    <p>Servidor MCP para integración con APIs de Bitbucket Cloud y Server</p>
+                                    <a href="https://github.com/MatanYemini/bitbucket-mcp" target="_blank" class="installation-link">
+                                        Ver repositorio →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-block">
+                        <button class="question-header" data-target="jira-tools">
+                            <span>MCP de Jira - Herramientas disponibles</span>
+                            <div class="chevron"></div>
+                        </button>
+                        <div class="answer-content" id="jira-tools">
+                            <div class="tools-grid">
+                                <div class="tool-item">
+                                    <code>jira_search</code>
+                                    <span>Buscar issues con JQL</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_get_issue</code>
+                                    <span>Obtener detalles de issue</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_create_issue</code>
+                                    <span>Crear nuevos issues</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_update_issue</code>
+                                    <span>Actualizar issues</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_add_comment</code>
+                                    <span>Añadir comentarios</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_transition_issue</code>
+                                    <span>Cambiar estado</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_get_all_projects</code>
+                                    <span>Listar proyectos</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_get_agile_boards</code>
+                                    <span>Obtener boards Agile</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_get_sprints_from_board</code>
+                                    <span>Listar sprints</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>jira_batch_create_issues</code>
+                                    <span>Crear issues en lote</span>
+                                </div>
+                                <div class="tool-item other-tools">
+                                    <code>+15 más</code>
+                                    <span>Worklogs, enlaces, versiones, etc.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="question-block">
+                        <button class="question-header" data-target="bitbucket-tools">
+                            <span>MCP de Bitbucket - Herramientas disponibles</span>
+                            <div class="chevron"></div>
+                        </button>
+                        <div class="answer-content" id="bitbucket-tools">
+                            <div class="tools-grid">
+                                <div class="tool-item">
+                                    <code>bitbucket_list_repositories</code>
+                                    <span>Listar repositorios</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_get_pull_requests</code>
+                                    <span>Obtener pull requests</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_create_pull_request</code>
+                                    <span>Crear pull requests</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_merge_pull_request</code>
+                                    <span>Mergear PRs</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_get_pull_request_diff</code>
+                                    <span>Ver diferencias</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_approve_pull_request</code>
+                                    <span>Aprobar PRs</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_get_pull_request_activity</code>
+                                    <span>Log de actividad</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_get_repository_branching_model</code>
+                                    <span>Modelo de branching</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_decline_pull_request</code>
+                                    <span>Declinar PRs</span>
+                                </div>
+                                <div class="tool-item">
+                                    <code>bitbucket_update_pull_request</code>
+                                    <span>Actualizar PRs</span>
+                                </div>
+                                <div class="tool-item other-tools">
+                                    <code>+5 más</code>
+                                    <span>Comentarios, commits, configuración</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="demo-section">
+                        <button class="demo-button">Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Cursor Rules -->
+    <section class="section" id="section-2">
+        <div class="container">
+            <div class="content-wrapper">
+                <h1 class="section-title">Cursor Rules</h1>
+                <div class="questions-container">
+                    
+                    <div class="question-block">
+                        <button class="question-header" data-target="rules-definition">
+                            <span>¿Qué son las Cursor Rules?</span>
+                            <div class="chevron"></div>
+                        </button>
+                        <div class="answer-content" id="rules-definition">
+                            <p>Las <strong>Cursor Rules</strong> son instrucciones personalizadas que definen cómo debe comportarse la IA de Cursor en tu proyecto, asegurando consistencia en el código y siguiendo las mejores prácticas de tu equipo.</p>
+                            <div class="examples-grid">
+                                <div class="example-item">
+                                    <h4>Estándares de código</h4>
+                                    <p>Espacios vs tabs, longitud de línea</p>
+                                </div>
+                                <div class="example-item">
+                                    <h4>Convenciones de nombres</h4>
+                                    <p>camelCase, snake_case, PascalCase</p>
+                                </div>
+                                <div class="example-item">
+                                    <h4>Arquitectura preferida</h4>
+                                    <p>Patrones de diseño específicos</p>
+                                </div>
+                                <div class="example-item">
+                                    <h4>Librerías del proyecto</h4>
+                                    <p>Frameworks y dependencias específicas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="demo-section">
+                        <button class="demo-button">Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Comandos de Cursor -->
+    <section class="section" id="section-3">
+        <div class="container">
+            <div class="content-wrapper">
+                <h1 class="section-title">Comandos de Cursor</h1>
+                <div class="questions-container">
+                    
+                    <div class="question-block">
+                        <button class="question-header" data-target="commands-definition">
+                            <span>¿Qué son los Comandos de Cursor?</span>
+                            <div class="chevron"></div>
+                        </button>
+                        <div class="answer-content" id="commands-definition">
+                            <p>Los <strong>comandos de Cursor</strong> son instrucciones específicas que puedes dar a la IA para realizar tareas complejas que combinan múltiples herramientas y conocimientos del contexto del proyecto.</p>
+                            <div class="commands-grid">
+                                <div class="command-item">
+                                    <div class="command-text">"Crea tickets de Jira para las tareas pendientes"</div>
+                                </div>
+                                <div class="command-item">
+                                    <div class="command-text">"Genera una PR con resumen automático"</div>
+                                </div>
+                                <div class="command-item">
+                                    <div class="command-text">"Revisa el código y sugiere mejoras"</div>
+                                </div>
+                                <div class="command-item">
+                                    <div class="command-text">"Implementa esta funcionalidad siguiendo nuestros estándares"</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="demo-section">
+                        <button class="demo-button">Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Preguntas -->
+    <section class="section" id="section-4">
+        <div class="container">
+            <div class="content-wrapper">
+                <h1 class="section-title questions-title">¿Preguntas?</h1>
+                <div class="questions-icon">
+                    <div class="question-mark">?</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Gracias -->
+    <section class="section" id="section-5">
+        <div class="container">
+            <div class="content-wrapper">
+                <h1 class="section-title thanks-title">¡Gracias!</h1>
+                <div class="thanks-content">
+                    <div class="emoji-grid">
+                        <div class="emoji">🚀</div>
+                        <div class="emoji">💻</div>
+                        <div class="emoji">⚡</div>
+                    </div>
+                    <p class="thanks-subtitle">¡A desarrollar con MCPs!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

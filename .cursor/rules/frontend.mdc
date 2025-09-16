@@ -1,0 +1,18 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+This rule provides standards for frontend components:
+
+When working in components directory:
+- Always use Tailwind for styling
+- Use Framer Motion for animations
+- Follow component naming conventions
+
+This rule enforces validation for API endpoints:
+In API directory:
+- Use zod for all validation
+- Define return types with zod schemas
+- Export types generated from schemas
