@@ -2,6 +2,8 @@
 
 Una demostración práctica de las capacidades de integración de Cursor con herramientas de desarrollo mediante Model Context Protocols (MCPs).
 
+🌐 **[Demo Web](https://gerodp.github.io/demo_mcps/)** 
+
 ## 📋 Descripción
 
 Este proyecto demuestra cómo integrar Cursor IDE con servicios externos como Jira y Bitbucket utilizando MCPs, incluyendo configuraciones de reglas personalizadas y comandos automatizados. Incluye tanto ejemplos prácticos como una presentación web interactiva sobre las novedades de Cursor y modelos de IA.
