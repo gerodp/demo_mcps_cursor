@@ -132,11 +132,6 @@ cd demoMCPs
 - **Procesos automatizados**: Menos trabajo manual
 - **Mejor colaboración**: Integración entre herramientas
 
-### Para Demos y Presentaciones
-- **Explicación visual**: Demo web interactiva
-- **Ejemplos prácticos**: Comandos reales documentados
-- **Configuración lista**: Setup completo incluido
-
 ## 🔧 Configuración Avanzada
 
 ### Personalizar Reglas de Cursor
@@ -169,11 +164,3 @@ Descripción de lo que hace el comando
 2. Paso 2
 3. Paso 3
 ```
-
-## 🤝 Contribuir
-
-1. Fork el proyecto
-2. Crea una rama feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
